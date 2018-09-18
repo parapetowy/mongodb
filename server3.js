@@ -42,7 +42,7 @@ const User = mongoose.model('User', userSchema);
 
 User.find({}, function(err, res) {
     if (err) throw err;
-    console.log('Actual database records are ' + res);
+    alert('Actual database records are ' + res);
 });
 
 /*//instancje klasy User
