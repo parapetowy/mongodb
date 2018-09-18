@@ -40,7 +40,12 @@ userSchema.pre('save', function(next) {
 //model based on userSchema
 const User = mongoose.model('User', userSchema);
 
-//instancje klasy User
+User.find({}, function(err, res) {
+    if (err) throw err;
+    console.log('Actual database records are ' + res);
+});
+
+/*//instancje klasy User
 const kenny = new User({
     name: 'Kenny',
     username: 'Kenny_the_boy',
@@ -153,4 +158,4 @@ Promise.all([kenny.save(), mark.save(), benny.save()])
     .then(findMarkAndDelete)
     .then(findKennyAndDelete)
     .then(findBennyAndRemove)
-    .catch(console.log.bind(console))
+    .catch(console.log.bind(console))*/
