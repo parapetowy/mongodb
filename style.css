@@ -1,0 +1,49 @@
+body {
+	padding-top: 60px; 
+	margin: 0 auto;
+}
+
+.main {
+	margin-bottom: 50px;
+}
+.main button {
+	margin: 20px;
+}
+.gallery {
+
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+.navbar-inverse .navbar-nav>.active>a {
+	background-color: #5b9cde;
+}
+.navbar-inverse .navbar-nav>.active>a:hover {
+	background-color: #5b9caa;
+}
+
+[class*="example"]{
+  min-height:300px;
+  background-size: cover;
+
+}
+.example-1 {
+	background-image: url('http://www.freeimageslive.com/galleries/backdrops/fractal/pics/abstract_twisted_fractal.jpg');
+}
+.example-2 {
+	background-image: url('http://www.freeimageslive.com/galleries/backdrops/fractal/pics/fractal_arabesque_loops.jpg');
+}
+.example-3 {
+	background-image: url('http://www.freeimageslive.com/galleries/backdrops/fractal/pics/fractal_cubes_cyan.jpg');
+}
+.example-4 {
+	background-image: url('http://www.freeimageslive.com/galleries/backdrops/fractal/pics/fractal_doily.jpg');
+}
+.example-5 {
+	background-image: url('http://www.freeimageslive.com/galleries/backdrops/fractal/pics/fractal_fireworks_glow.jpg');
+}
+
+.taby, .tab-pane {
+  padding: 10px;
+}
