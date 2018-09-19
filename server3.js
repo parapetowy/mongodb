@@ -75,7 +75,7 @@ server.on('request', function(request, response) {
     }
 });
 
-server.listen(8080);
+server.listen(80);
 
 /*//instancje klasy User
 const kenny = new User({
