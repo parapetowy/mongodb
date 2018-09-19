@@ -42,8 +42,16 @@ const User = mongoose.model('User', userSchema);
 
 User.find({}, function(err, res) {
     if (err) throw err;
-    alert('Actual database records are ' + res);
+    console.log('Actual database records are ' + res);
 });
+
+const findAllUsers = function() {
+    // find all users
+    return User.find({}, function(err, res) {
+        if (err) throw err;
+        console.log('Actual database records are ' + res);
+    });
+}
 
 /*//instancje klasy User
 const kenny = new User({
