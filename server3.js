@@ -1,8 +1,6 @@
-var server = require('./modules/server');
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-server.start();
 
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://admin:admindb1@ds159782.mlab.com:59782/db1', {

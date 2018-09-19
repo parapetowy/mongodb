@@ -4,10 +4,7 @@
   "description": "",
   "main": "server3.js",
   "dependencies": {
-    "mongoose": "^5.2.15",
-    "colors": "^1.3.1",
-    "formidable": "^1.2.1",
-    "nodemon": "^1.18.3"
+    "mongoose": "^5.2.15"
   },
   "devDependencies": {},
   "scripts": {
